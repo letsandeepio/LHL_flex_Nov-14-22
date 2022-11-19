@@ -9,9 +9,12 @@ We did a demo to practice our dev workflow. How to solve a problem step by step:
 * Thinking about the problem in general concepts (before even writing code)
 * Breaking down the problem into smaller chunks
 * Writing little bit of code & testing our assumptions
-* Making use of our BFF (best friend forever) - console.log
+* Making use of our BFFs (best friend forever)
+  - Google
+  - Stack overflow
+  - MDN Docs
 * Building on step by step solutions
-* Using Google to our advantage
+* Using console.log to our advantage
 * Committing your work very often 
 
 ### Curriculum Overview
