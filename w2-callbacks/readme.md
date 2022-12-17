@@ -1,5 +1,7 @@
 # Outline
 
+Today we covered the following topics:
+
 [] Functions as First-class Objects
     -> What is a function?
     -> Function Declaration
