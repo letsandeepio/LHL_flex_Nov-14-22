@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Rockets</title>
+</head>
+
+<body>
+
+
+  <h1>
+    <%= header %>
+  </h1>
+
+  <ul>
+    <% for(let rocket of rocketsArr){ %>
+      <li>
+        <%= rocket.rocket_name %> -
+          <a href="rockets/<%= rocket.rocket_id %>/update">Edit</a> -
+          <form method="POST" action="/rockets/<%= rocket.rocket_id %>/delete"><button type="submit">Delete</button>
+          </form>
+      </li>
+      <% } %>
+  </ul>
+
+  <a href="/rockets/new">Add a new rocket</a>
+  </h1>
+</body>
+
+</html>
